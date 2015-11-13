@@ -1,0 +1,51 @@
+Mac version
+
+Using ReadLine
+
+Running 64Bit Version
+
+mothur v.1.35.1
+Last updated: 3/31/2015
+
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+University of Michigan
+pschloss@umich.edu
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+Type 'quit()' to exit program
+Script Mode
+
+
+mothur > set.logfile(name=mothur.ipython.93923.logfile)
+
+mothur > summary.seqs(fasta=../../SeqData/pear_merged_2015_11_04.assembled.maxee.16S.complete.fasta)
+
+Using 1 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	50	50	0	2	1
+2.5%-tile:	1	298	298	0	4	64889
+25%-tile:	1	299	299	0	4	648889
+Median: 	1	299	299	0	5	1297777
+75%-tile:	1	299	299	0	5	1946665
+97.5%-tile:	1	300	300	0	8	2530665
+Maximum:	1	492	492	1	23	2595553
+Mean:	1	299.567	299.567	1.15582e-06	4.76586
+# of Seqs:	2595553
+
+Output File Names: 
+../../SeqData/pear_merged_2015_11_04.assembled.maxee.16S.complete.summary
+
+It took 47 secs to summarize 2595553 sequences.
+
+mothur > quit()
